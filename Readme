@@ -1,1 +1,10 @@
-android_model_train.py — PyTorch MLP that learns from permission features
+Overview
+
+This is a prototype machine learning model for detecting Android malware using app permission data.
+It demonstrates how ML can distinguish between benign and malicious apps built mainly for testing and learning purposes for our team.
+
+Context
+
+Trained using 10 selected features out of 294 total columns to validate the pipeline.
+Model training was done on Curtin University lab computers via SSH, as personal hardware was too slow for the task when train ML model.
+This is not the final version future iterations will include the full dataset and optimization.
